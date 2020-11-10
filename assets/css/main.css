@@ -2429,7 +2429,7 @@ input, select, textarea {
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
-	.button {
+	.button , #myBtn {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -3218,3 +3218,11 @@ input, select, textarea {
 			}
 
 	}
+/* show more or les button */
+#more{
+	display:none;
+}
+/* blockquote style */
+#bquote{
+	display: inline-block;
+}
